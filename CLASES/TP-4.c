@@ -9,29 +9,29 @@ int main(int argc, char *argv[]
  
 // EJERCICIO 1 : Ingresar N sueldos e indicar su suma y su promedio, imprimir resultados
 
-// int sueldos = 0 ;
-// int sumaSueldo = 0;
-// float sumardorSueldos = 0;
-// float proemdioSueldos = 0 ;
+int sueldos = 0 ;
+int sumaSueldo = 0;
+float sumardorSueldos = 0;
+float proemdioSueldos = 0 ;
 
-// printf("\n Ingrese un sueldo o insgrese ( 0 ) para salir ");
-// scanf("%d ", & sueldos);
+printf("\n Ingrese un sueldo o insgrese ( 0 ) para salir ");
+scanf("%d ", & sueldos);
 
-// while (sueldos != 0 )
-// {
-//     sumardorSueldos ++ ;
-//     sumaSueldo += sueldos;
+while (sueldos != 0 )
+{
+    sumardorSueldos ++ ;
+    sumaSueldo += sueldos;
 
-//     proemdioSueldos = sumaSueldo / sumardorSueldos ; 
+    proemdioSueldos = sumaSueldo / sumardorSueldos ; 
 
 
-//     printf("\n Ingrese un sueldo o insgrese ESC para salir ");
-//     scanf("%d ", & sueldos);
+    printf("\n Ingrese un sueldo o insgrese ESC para salir ");
+    scanf("%d ", & sueldos);
 
-// }
+}
 
-// printf("\n la suma de los sueldos es : %d ", sumaSueldo);
-// printf("\n El promedio de los sueldos es  : %f ", proemdioSueldos);
+printf("\n la suma de los sueldos es : %d ", sumaSueldo);
+printf("\n El promedio de los sueldos es  : %f ", proemdioSueldos);
 
 
 // EJERCICIO 2 :Ingresar facturas hasta nro de factura = 0, sumar sus importes y cúales y 

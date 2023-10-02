@@ -8,8 +8,8 @@ int main(int argc, char *argv[]) {
 	
 // VARIABLES EJ 1 A 2
 
-//int valor1=0;
-//int valor2=0;
+int valor1=0;
+int valor2=0;
 
 
 
@@ -34,7 +34,7 @@ else{
 
 //EJECICIO 2
 
-/*printf("\n ingrese un valor: ");
+printf("\n ingrese un valor: ");
 scanf("%d",& valor1);
 
 if( valor1>0 ){
@@ -45,35 +45,35 @@ if( valor1>0 ){
 }
 if(valor1==0){
 						printf("\n El numero es cero ");
-			}*/
+			}
 
 //EJERCICIO 3
-/*
-int lado1;
-int lado2;
-int lado3;
 
-printf("\n ingrese un lado: ");
-scanf("%d",& lado1);
+// int lado1;
+// int lado2;
+// int lado3;
 
-printf("\n ingrese un segundo lado: ");
-scanf("%d",& lado2);
+// printf("\n ingrese un lado: ");
+// scanf("%d",& lado1);
 
-printf("\n ingrese un tercer lado: ");
-scanf("%d",& lado3);
+// printf("\n ingrese un segundo lado: ");
+// scanf("%d",& lado2);
 
-if(lado1==lado2 && lado1==lado3){
-	printf("\n El triangulo es equilatero: ");
-}
+// printf("\n ingrese un tercer lado: ");
+// scanf("%d",& lado3);
 
-else if(lado1==lado2 || lado2==lado3 || lado1==lado3){
-			printf("\n El triangulo es isoceles: ");
+// if(lado1==lado2 && lado1==lado3){
+// 	printf("\n El triangulo es equilatero: ");
+// }
+
+// else if(lado1==lado2 || lado2==lado3 || lado1==lado3){
+// 			printf("\n El triangulo es isoceles: ");
 			
-	}
-else{
-				printf("\n El triangulo es escaleno: ");
+// 	}
+// else{
+// 				printf("\n El triangulo es escaleno: ");
 
-}*/
+// }
 
 
 
@@ -338,12 +338,12 @@ else{
 
 
 
-int num = 10;
-float porcentaje ;
+// int num = 10;
+// float porcentaje ;
 
-porcentaje = num * 0.01;
+// porcentaje = num * 0.01;
 
-printf(" %f", porcentaje );
+// printf(" %f", porcentaje );
 
 
 
