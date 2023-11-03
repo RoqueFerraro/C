@@ -9,29 +9,29 @@ int main(int argc, char *argv[]
  
 // EJERCICIO 1 : Ingresar N sueldos e indicar su suma y su promedio, imprimir resultados
 
-int sueldos = 0 ;
-int sumaSueldo = 0;
-float sumardorSueldos = 0;
-float proemdioSueldos = 0 ;
+// int sueldos = 0 ;
+// int sumaSueldo = 0;
+// float sumardorSueldos = 0;
+// float proemdioSueldos = 0 ;
 
-printf("\n Ingrese un sueldo o insgrese ( 0 ) para salir ");
-scanf("%d ", & sueldos);
+// printf("\n Ingrese un sueldo o insgrese ( 0 ) para salir ");
+// scanf("%d ", & sueldos);
 
-while (sueldos != 0 )
-{
-    sumardorSueldos ++ ;
-    sumaSueldo += sueldos;
+// while (sueldos != 0 )
+// {
+//     sumardorSueldos ++ ;
+//     sumaSueldo += sueldos;
 
-    proemdioSueldos = sumaSueldo / sumardorSueldos ; 
+//     proemdioSueldos = sumaSueldo / sumardorSueldos ; 
 
 
-    printf("\n Ingrese un sueldo o insgrese ESC para salir ");
-    scanf("%d ", & sueldos);
+//     printf("\n Ingrese un sueldo o insgrese ESC para salir ");
+//     scanf("%d ", & sueldos);
 
-}
+// }
 
-printf("\n la suma de los sueldos es : %d ", sumaSueldo);
-printf("\n El promedio de los sueldos es  : %f ", proemdioSueldos);
+// printf("\n la suma de los sueldos es : %d ", sumaSueldo);
+// printf("\n El promedio de los sueldos es  : %f ", proemdioSueldos);
 
 
 // EJERCICIO 2 :Ingresar facturas hasta nro de factura = 0, sumar sus importes y cúales y 
@@ -210,44 +210,44 @@ printf("\n El promedio de los sueldos es  : %f ", proemdioSueldos);
 //              imprimir cuál ganó y cúal fue el último
 
 
-int numeroDeAuto = 0;
-int tiempo = 0 ;
-int primerPuesto = 0;
-int ultimoPuesto = 0;
-int autoGanador = 0;
-int autoPerdedor = 0;
+// int numeroDeAuto = 0;
+// int tiempo = 0 ;
+// int primerPuesto = 0;
+// int ultimoPuesto = 0;
+// int autoGanador = 0;
+// int autoPerdedor = 0;
 
 
-printf("\n Ingrese un numero de auto o ( 0 ) para salir ");
-scanf("%d ", & numeroDeAuto);
+// printf("\n Ingrese un numero de auto o ( 0 ) para salir ");
+// scanf("%d ", & numeroDeAuto);
 
-while (numeroDeAuto != 0){
+// while (numeroDeAuto != 0){
 
-    printf("\n Ingrese el tiempo del auto ");
-    scanf("%d ", & tiempo); 
+//     printf("\n Ingrese el tiempo del auto ");
+//     scanf("%d ", & tiempo); 
 
-    if (tiempo > 0 )
-    {
-        if (tiempo >= primerPuesto)
-        {
-            primerPuesto = tiempo;
-            autoGanador = numeroDeAuto;
-        }
-        else if (tiempo <= ultimoPuesto)
-        {
-            ultimoPuesto = tiempo;
-            autoPerdedor= numeroDeAuto;
-        }
+//     if (tiempo > 0 )
+//     {
+//         if (tiempo >= primerPuesto)
+//         {
+//             primerPuesto = tiempo;
+//             autoGanador = numeroDeAuto;
+//         }
+//         else if (tiempo <= ultimoPuesto)
+//         {
+//             ultimoPuesto = tiempo;
+//             autoPerdedor= numeroDeAuto;
+//         }
    
-    }
+//     }
     
-    printf("\n Ingrese un numero de auto o ( 0 ) para salir ");
-    scanf("%d ", & numeroDeAuto);
+//     printf("\n Ingrese un numero de auto o ( 0 ) para salir ");
+//     scanf("%d ", & numeroDeAuto);
      
-}
+// }
 
-printf("\n El auto ganador es el numero: %d con un tiempo de %d ", autoGanador , primerPuesto);
-printf("\n El auto que quedo en el ultimo puesto es el numero: %d con un tiempo de %d ", autoPerdedor  ,ultimoPuesto);
+// printf("\n El auto ganador es el numero: %d con un tiempo de %d ", autoGanador , primerPuesto);
+// printf("\n El auto que quedo en el ultimo puesto es el numero: %d con un tiempo de %d ", autoPerdedor  ,ultimoPuesto);
 
 
 

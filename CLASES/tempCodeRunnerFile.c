@@ -1,9 +1,5 @@
 
-// int num = 10;
-// float porcentaje ;
-
-// porcentaje = num * 0.01;
-
-// printf(" %f", porcentaje );
-
-
+// for ( i = 0; i < 11; i++)
+// {
+//     printf("\n la palabra es: %c", palabra[i]);
+// }

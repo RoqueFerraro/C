@@ -13,7 +13,6 @@ int totalHorasContratadas = 0;
 int cantidadMaxDeHoras = 0;
 int cantidadTotalClientes = 0;
 int totalRecaudado = 0 ;
-int cerrarPrograma = 0 ;
 
 
 
@@ -39,8 +38,6 @@ while (selectorDeDia != 0)
 
                         precioCliente = horasDeUso * CostoPorHoraDeLunesAViernes ;
 
-
-
                         if(horasDeUso >= cantidadMaxDeHoras){
                             cantidadMaxDeHoras = horasDeUso;
                         }
@@ -48,8 +45,10 @@ while (selectorDeDia != 0)
                         printf("\n\n El monto que debe pagar el %dº cliente es de : %d", contadorClientes , precioCliente);
 
                     }
+                    else{
+                         printf("\n DATO INCORRECTO:");
+                    }
             
-
                     printf("\n\n Ingrese las horas del %dº cliente o (0) para terminar le programa: " , contadorClientes);
                     scanf("%d" ,& horasDeUso);
                 }
@@ -77,18 +76,17 @@ while (selectorDeDia != 0)
 
                         precioCliente = horasDeUso * CostoPorHoraFinDeSemana ;
 
-
-
                         if(horasDeUso >= cantidadMaxDeHoras){
                             cantidadMaxDeHoras = horasDeUso;
                         }
 
                         printf("\n\n El monto que debe pagar el %dº es de : %d", contadorClientes , precioCliente);
 
-                    }
-            
-
-                    printf("\n\n Ingrese las horas trabajadas del %dº cliente o (0): " , contadorClientes);
+                    }            
+                    else{
+                         printf("\n DATO INCORRECTO:");
+                    }                    
+                    printf("\n\n Ingrese las horas del %dº cliente o (0) para terminar el programa: " , contadorClientes);
                     scanf("%d" ,& horasDeUso);
                 }
                 
@@ -100,10 +98,12 @@ while (selectorDeDia != 0)
                 return 0 ;       
         }
     }
-
-
-         printf("\n Ingrese si va a operar en dia de semana (1) , en fin de semana (2) o (0) para terminar el programa :  ");
-         scanf("%d", & selectorDeDia);
+    else{
+        printf("\n DATO INCORRECTO:");
+    }    
+    
+    printf("\n\n Ingrese si va a operar en dia de semana (1) , en fin de semana (2) o (0) para terminar el programa :  ");
+    scanf("%d", & selectorDeDia);
 
 }
 
